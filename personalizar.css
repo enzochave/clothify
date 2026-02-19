@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,#ede9fe,#f5f3ff);
+}
+
+.topbar{
+    background:#7c3aed;
+    color:white;
+    padding:15px 10%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.topbar a{
+    color:white;
+    text-decoration:none;
+}
+
+.section{
+    display:flex;
+    gap:50px;
+    padding:60px 10%;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.1);
+    width:420px;
+}
+
+.card label{
+    margin-top:15px;
+    display:block;
+}
+
+.card input,
+.card select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+.add-btn{
+    margin-top:20px;
+    padding:12px;
+    width:100%;
+    border:none;
+    border-radius:12px;
+    background:#7c3aed;
+    color:white;
+    cursor:pointer;
+}
+
+.preview-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.tshirt-container{
+    position:relative;
+    width:350px;
+}
+
+.tshirt-svg{
+    width:100%;
+}
+
+/* Área da estampa */
+.print-area{
+    position:absolute;
+    width:180px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/* POSIÇÕES MAIS CERTAS */
+
+.upper{
+    top:120px;
+}
+
+.center{
+    top:200px;
+}
+
+.lower{
+    top:270px;
+}
+
+.collar{
+    top:80px;
+}
+
+.bottom{
+    top:350px;
+}
+
+.print-area img{
+    display:none;
+}
+
